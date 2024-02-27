@@ -75,3 +75,7 @@ body {
 .button:hover {
     background-color: #994907;
 }
+.header__title {
+    color:#FF7400;
+    font-family: "Tinos", serif;
+}
