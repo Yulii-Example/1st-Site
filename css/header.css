@@ -75,7 +75,53 @@ body {
 .button:hover {
     background-color: #994907;
 }
+.heafer__down {
+    position: relative;
+}
 .header__title {
     color:#FF7400;
     font-family: "Tinos", serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 450px;
+    margin-bottom: 12px;
+}
+.header__under__subtitle {
+color: #fff;
+font-size: 18px;
+font-family: "Open Sans", sans-serif;
+}
+.header__under__subtitle:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 127px;
+    left: 300px;
+}
+.header__under__subtitle:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 127px;
+    left: 70px;
+}
+.header__down__button {
+    background-color: #FF7400;
+    padding: 14px 25px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    transition: background-color 0.3s linear;
+}
+.header__down__button:hover {
+background-color: #994907;
 }
