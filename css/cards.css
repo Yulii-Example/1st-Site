@@ -1,0 +1,14 @@
+.card__magic__image {
+    display: flex;
+    justify-content: center;
+}
+
+.card__magic__title {
+    display: flex;
+    justify-content: center;
+}
+
+.card__magic__discription {
+    display: flex;
+    justify-content: center;
+}
