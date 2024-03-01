@@ -1,3 +1,12 @@
+.cards__holder {
+    display: flex;
+    justify-content: center;
+}
+.card__magic {
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    margin-right: 31px;
+}
 .card__magic__image {
     display: flex;
     justify-content: center;
