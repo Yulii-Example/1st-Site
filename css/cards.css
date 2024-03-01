@@ -4,20 +4,35 @@
 }
 .card__magic {
     box-shadow: 10px 10px 40px 20px #0000001A;
-    width: 349px;
+    width: 33%;
     margin-right: 31px;
+    background-color: #fff;
+    margin-top: -100px;
+    padding: 0px 150px;
 }
 .card__magic__image {
     display: flex;
     justify-content: center;
+    padding-top: 31px;
+}
+
+.card__magic__title span {
+    color: #FF7400;
 }
 
 .card__magic__title {
-    display: flex;
+    text-align: center;
     justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400;
 }
 
 .card__magic__discription {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
 }
