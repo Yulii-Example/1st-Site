@@ -1,7 +1,12 @@
+.history {
+    margin-top: 166px;
+}
 .history__title {
     font-family: "Tinos", serif;
     font-size: 54px;
     font-weight: 400;
+    width: 444px;
+    text-align: center;
 }
 .history__title span {
     color: #FF7400;
@@ -10,4 +15,63 @@
 .history__deskription {
     color: #656363;
     font-size: 16px;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.history__number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.history__number__item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #BC9060;
+}
+
+.history__number__item span {
+display: block;
+font-size: 20px;
+font-weight: 400;
+color: black;
+}
+
+.history__holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history_img {
+    position: relative;
+}
+
+.history__info {
+margin-left: 300px;
+}
+
+.img-1 {
+    position: absolute;
+    z-index: 0;
+    top: 54px;
+    left: -811px;
+}
+
+.img-2 {
+    position: absolute;
+    z-index: 999;
+    top: -92px;
+    left: -983px;
+}
+
+.img-3 {
+    position: absolute;
+    z-index: 0;
+    top: 246px;
+    left: -1086px;
 }
