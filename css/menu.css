@@ -1,5 +1,9 @@
 .menu {
   background-image: url(../img/bgmenu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 145px;
+  padding-bottom: 100px;
 }
 
 .menu__title {
@@ -8,4 +12,55 @@
   font-size: 54px;
   color: #fff;
   padding-top: 100px;
+  text-align: center;
+  padding-bottom: 138px;
+}
+
+.menu__items-item {
+  background-color: #fff;
+  text-align: center;
+  width: 33%;
+  padding-top: 80px;
+  padding-bottom: 35px;
+}
+
+.menu-text {
+  font-family: "Tinos", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #000;
+  padding-top: 16px;
+  padding-bottom: 17px;
+}
+
+.menu-subtext {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+}
+
+.menu-btn {
+    background-color: #d67e34;
+    text-decoration: none;
+    padding: 14px 67px;
+    color: #fff;
+    font-size: 16px;   
+    font-weight: 700;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.menu-button {
+    margin-top: 20px;
+}
+
+.menu-img {
+    border-radius: 50%;
+    position: relative;
+}
+
+.price-img {
+    position: absolute;
+  bottom: ;
+  right: 1335px;
 }
